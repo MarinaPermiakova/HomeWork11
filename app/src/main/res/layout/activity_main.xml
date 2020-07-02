@@ -10,10 +10,11 @@
     <LinearLayout
         style="@style/linearLayoutStyle">
 
-        <Button
+        <TextView
             style="@style/button"
             android:gravity="center_vertical|end"
-            android:padding="8dp"/>
+            android:padding="8dp"
+            android:id="@+id/text_view"/>
     </LinearLayout>
 
     <View
@@ -27,15 +28,18 @@
 
         <Button
             style="@style/button"
-            android:text="@string/_7" />
+            android:text="@string/_7"
+            android:id="@+id/btn7"/>
 
         <Button
             style="@style/button"
-            android:text="@string/_8" />
+            android:text="@string/_8"
+            android:id="@+id/btn8"/>
 
         <Button
             style="@style/button"
-            android:text="@string/_9" />
+            android:text="@string/_9"
+            android:id="@+id/btn9"/>
     </LinearLayout>
 
     <LinearLayout
@@ -43,15 +47,18 @@
 
         <Button
             style="@style/button"
-            android:text="@string/_4" />
+            android:text="@string/_4"
+            android:id="@+id/btn4"/>
 
         <Button
             style="@style/button"
-            android:text="@string/_5" />
+            android:text="@string/_5"
+            android:id="@+id/btn5"/>
 
         <Button
             style="@style/button"
-            android:text="@string/_6" />
+            android:text="@string/_6"
+            android:id="@+id/btn6"/>
 
     </LinearLayout>
 
@@ -60,15 +67,18 @@
 
         <Button
             style="@style/button"
-            android:text="@string/_1" />
+            android:text="@string/_1"
+            android:id="@+id/btn1"/>
 
         <Button
             style="@style/button"
-            android:text="@string/_2" />
+            android:text="@string/_2"
+            android:id="@+id/btn2"/>
 
         <Button
             style="@style/button"
-            android:text="@string/_3" />
+            android:text="@string/_3"
+            android:id="@+id/btn3"/>
     </LinearLayout>
 
     <LinearLayout
@@ -77,12 +87,14 @@
         <Button
             style="@style/button"
             android:layout_weight="2.1"
-            android:text="@string/_0" />
+            android:text="@string/_0"
+            android:id="@+id/btn0"/>
 
         <Button
             style="@style/button"
             android:layout_weight="1"
-            android:text="@string/comma"/>
+            android:text="@string/comma"
+            android:id="@+id/commaBtn"/>
 
     </LinearLayout>
 

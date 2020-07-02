@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         Button button8 = findViewById(R.id.btn8);
         Button button9 = findViewById(R.id.btn9);
         Button buttonComma = findViewById(R.id.commaBtn);
-        
+
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
